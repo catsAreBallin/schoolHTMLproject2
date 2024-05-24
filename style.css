@@ -1,3 +1,149 @@
-p {
-  font-size: 24px;
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.header {
+
+}
+
+.header__image {
+    text-decoration: none;
+}
+
+.header__title {
+    position: absolute;
+    width: 851px;
+    top: 316px;
+    left: 214px;
+    font-size: 96px;
+    font-family: Josefin Sans;
+    color: white;
+    text-shadow: 0 10px 10px #818181, 0 16px 10px #623A0A;
+}
+
+
+
+.main {
+
+}
+
+.main__nav {
+    text-decoration: none;
+}
+
+.main__title {
+    text-decoration: none;
+}
+
+
+.nav__a {
+    text-decoration: none;
+}
+
+
+.section-about-miki {
+    position: relative;
+}
+
+.section-about-miki__image {
+    position: absolute;
+    size: 537px 669px;
+}
+
+.section-about-miki__title {
+    text-decoration: none;
+}
+
+.section-about-miki__text {
+    text-decoration: none;
+}
+
+.section-about-miki__other {
+    text-decoration: none;
+}
+
+.section-about-miki__links {
+    display: flex;
+}
+
+.section-about-miki__album1 {
+
+}
+
+.section-about-miki__album1-image {
+
+}
+
+.section-about-miki__album2 {
+
+}
+
+.section-about-miki__album2-image {
+    
+}
+
+.section-about-miki__album3 {
+
+}
+
+.section-about-miki__album3-image {
+    
+}
+
+.section-about-cityPop {
+
+}
+
+.section-about-cityPop__text {
+
+}
+
+.section-about-cityPop__quote {
+
+}
+
+.section-about-cityPop__flaticon-link {
+
+}
+
+
+
+.footer {
+
+}
+
+.footer__title {
+
+}
+
+.footer__link {
+    
+}
+
+
+
+.other__flaticon-link {
+    text-decoration: none;
+}
+
+.other__stay-with-me {
+    text-decoration: none;
+}
+
+
+
+.stay-with-me__section {
+    text-decoration: none;
+}
+
+.stay-with-me__text {
+    text-decoration: none;
 }
