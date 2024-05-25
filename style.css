@@ -94,6 +94,14 @@ body {
     margin-bottom: 20px;
 }
 
+.section__pageLife-text {
+    font-family: inter;
+    display: inline-block;
+    width: 1110px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
 .section-about-miki__image {
     position: absolute;
     width: 536px;
