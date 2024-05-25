@@ -6,13 +6,10 @@
 
 body {
     background-color: black;
+    width: 1280px;
 }
 
 
-
-.header {
-
-}
 
 .header__image {
     text-decoration: none;
@@ -31,119 +28,256 @@ body {
 
 
 
-.main {
-
-}
-
 .main__nav {
-    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2B2522;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .main__title {
-    text-decoration: none;
+    font-size: 64px;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 0 5px 5px #818181;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
 .nav__a {
     text-decoration: none;
+    font-size: 40px;
+    color: #CFAD9A;
+    font-family: Inter;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.nav__a:hover {
+    color: #FFFFFF;
+    transition: all 100ms linear;
+}
+
+.nav__a:focus {
+    color: #AE675E;
 }
 
 
-.section-about-miki {
+
+.section {
     position: relative;
+    background-color: #2B2522;
+    width: 1108px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+.section:hover {
+    box-shadow: 0 15px 25px 0 #857460;
+    transition: all 1s linear;
+}
+
+.section__title {
+    font-family: monospace;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.section__text {
+    font-family: inter;
+    display: inline-block;
+    width: 558px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .section-about-miki__image {
     position: absolute;
-    size: 537px 669px;
-}
-
-.section-about-miki__title {
-    text-decoration: none;
-}
-
-.section-about-miki__text {
-    text-decoration: none;
+    width: 536px;
+    height: 668px;
+    right: 0;
+    top: 0px;
 }
 
 .section-about-miki__other {
-    text-decoration: none;
+    color: #999999;
+    font-size: 20px;
+    font-family: Inter;
+    display: inline-block;
+    width: 558px;
 }
 
 .section-about-miki__links {
     display: flex;
-}
-
-.section-about-miki__album1 {
-
+    width: 558px;
+    height: 170px;
+    margin-top: 4px;
+    justify-content: center;
 }
 
 .section-about-miki__album1-image {
-
+    width: 146px;
+    opacity: 25%;
 }
 
-.section-about-miki__album2 {
-
+.section-about-miki__album1-image:hover {
+    margin: 10px;
+    border: 8px solid #FFE500;
+    opacity: 100%;
+    border-radius: 7px;
+    transition: all 500ms linear;
 }
 
 .section-about-miki__album2-image {
-    
+    width: 146px;
+    opacity: 25%;
 }
 
-.section-about-miki__album3 {
-
+.section-about-miki__album2-image:hover {
+    margin: 10px;
+    border: 8px solid #E03A3A;
+    opacity: 100%;
+    border-radius: 7px;
+    transition: all 500ms linear;
 }
 
 .section-about-miki__album3-image {
-    
+    width: 146px;
+    opacity: 25%;
 }
 
-.section-about-cityPop {
-
+.section-about-miki__album3-image:hover {
+    margin: 10px;
+    border: 8px solid #00FFE0;
+    opacity: 100%;
+    border-radius: 7px;
+    transition: all 500ms linear;
 }
 
-.section-about-cityPop__text {
-
+.section-about-cityPop__quote-div {
+    font-size: 24px;
+    font-family: Inter;
+    position: relative;
 }
 
 .section-about-cityPop__quote {
-
+    margin-left: 74px;
+    font-family: inter;
+    font-size: 24px;
+    width: 954px;
 }
 
-.section-about-cityPop__flaticon-link {
-
+.section-about-cityPop__quote-div::before {
+    content: url("https://github.com/catsAreBallin/schoolHTMLproject2/blob/main/icon1.png?raw=true");
+    display: inline-block;
 }
+
+.section-about-cityPop__quote-div::after {
+    content: url("https://github.com/catsAreBallin/schoolHTMLproject2/blob/main/icon2.png?raw=true");
+    position: absolute;
+    right: 0;
+    
+}
+
+.section-about-cityPop__flaticon-link-div {
+    width: 1088px;
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+}
+
 
 
 
 .footer {
-
+    background-color: #121110;
+    padding: 47px;
+    padding-top: 30px;
 }
 
 .footer__title {
-
+    font-family: monospace;
+    font-size: 32px;
 }
 
 .footer__link {
-    
+    display: block;
+    font-size: 24px;
+    font-family: Inter;
+    color: #959595;
+    margin: 5px 0 0 20px;
 }
+
+.footer__link:hover {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px rgba(169, 106, 60, 0.5);
+}
+
+.footer__link:focus {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px white;
+}
+
 
 
 
 .other__flaticon-link {
     text-decoration: none;
+    font-size: 20px;
+    font-family: Inter;
+    color: #999999;
+}
+
+.other__flaticon-link:hover {
+    color: #FFE8D7;
+}
+
+.other__flaticon-link-div {
+    width: 1280px;
+    text-align: center;
 }
 
 .other__stay-with-me {
-    text-decoration: none;
+    font-size: 24px;
+    font-family: Inter;
+    color: #999999;
+    float: right;
+    margin-top: 95px;
 }
 
 
 
 .stay-with-me__section {
-    text-decoration: none;
+    background-color: #121110;
+    width: 722px;
+    height: 354px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.stay-with-me__text-div {
+    font-size: 24px;
+    font-family: Inter;
+    position: relative;
+}
+
+.stay-with-me__text-div::before {
+    content: url("https://github.com/catsAreBallin/schoolHTMLproject2/blob/main/icon1.png?raw=true");
+    display: inline-block;
+}
+
+.stay-with-me__text-div::after {
+    content: url("https://github.com/catsAreBallin/schoolHTMLproject2/blob/main/icon2.png?raw=true");
+    display: inline-block;
+    position: absolute;
+    left: 631px;
+    
 }
 
 .stay-with-me__text {
-    text-decoration: none;
+    margin-left: 74px;
 }
