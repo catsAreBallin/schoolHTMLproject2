@@ -198,6 +198,48 @@ body {
 
 
 
+.album-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1102px;
+    margin: auto;
+}
+
+.album-list__image {
+    width: 220px;
+    border: 10px solid black;
+}
+
+.album-list__item {
+    margin: 40px;
+}
+
+.album-list__text {
+    font-size: 24px;
+    font-family: Inter;
+    text-align: center;
+    color: #B4A59A;
+}
+
+.album-list__link {
+    text-decoration: none;
+}
+
+.album-list__item:hover .album-list__image {
+    width: 240px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 26px 0 rgba(176, 128, 57, 0.7);
+    transition: all 500ms linear;
+}
+
+.album-list__item:hover .album-list__text {
+    color: white;
+    transition: all 500ms linear;
+}
+
+
 
 .footer {
     background-color: #121110;
